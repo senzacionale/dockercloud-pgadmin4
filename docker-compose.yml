@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  pgadmin4:
+    container_name: pgadmin4
+    restart: always
+    build:
+      context: .
+      dockerfile: python3.6/alpine/Dockerfile
